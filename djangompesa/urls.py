@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.payuser,name='payment')
+    path('',views.lipamimi,name='payment')
+
 ]
